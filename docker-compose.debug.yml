@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ros2dmapmaker:
+    image: ros2dmapmaker
+    build:
+      context: .
+      dockerfile: ./Dockerfile
