@@ -38,4 +38,6 @@ ENV TOPIC_ODOM=/odom
 ENV BAG_PLAY_SPEED=1
 ENV BAG_FILE_NAME=rosbag.bag
 
+WORKDIR /home/$USERNAME
+
 CMD ["bash", "-c", "/tmp/start.sh"]
